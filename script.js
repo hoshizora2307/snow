@@ -1,9 +1,9 @@
-const API_KEY = 'YOUR_API_KEY_HERE'; // ★ここにあなたのAPIキーを貼り付けてください
+const API_KEY = 'c87064f29ceb28115ccf465338fd12ba'; // ★ここにあなたのAPIキーを貼り付けてください
 const city = 'Yamanouchi'; // 横手山がある山ノ内町を指定
 const snowDepthUrl = 'https://api.openweathermap.org/data/2.5/forecast?q=Yamanouchi&appid=YOUR_API_KEY_HERE&lang=ja&units=metric';
 
 // APIキーを適切に設定してください
-const OPENWEATHERMAP_API_KEY = 'YOUR_API_KEY_HERE';
+const OPENWEATHERMAP_API_KEY = 'c87064f29ceb28115ccf465338fd12ba';
 
 document.addEventListener('DOMContentLoaded', () => {
     fetchWeatherData();
