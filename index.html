@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>横手山SNOW INFO</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>横手山SNOW INFO</h1>
+            <p id="sub-title">志賀高原の最高峰から最新情報をお届け</p>
+            <p id="update-time"></p>
+        </header>
+
+        <main>
+            <section class="info-card">
+                <h2>今日の積雪量</h2>
+                <div class="snow-depth-display">
+                    <p class="data-value" id="snow-depth">-- cm</p>
+                    <p class="data-label">昨日からの変化：<span id="snow-change">-- cm</span></p>
+                </div>
+            </section>
+
+            <section class="info-card weather-card">
+                <h2>今日の天気</h2>
+                <div class="weather-display">
+                    <img id="weather-icon" src="" alt="天気アイコン">
+                    <p class="weather-description" id="weather-desc">--</p>
+                    <p class="temp-label">山頂気温：<span id="temp-summit">--°C</span></p>
+                    <p class="temp-label">山麓気温：<span id="temp-base">--°C</span></p>
+                </div>
+            </section>
+            
+            <section class="info-card">
+                <h2>ライブカメラ</h2>
+                <div class="live-cam-placeholder">
+                    <p>ライブカメラの映像をストリーミング中...</p>
+                    <p>（※実装には外部サービスが必要です）</p>
+                </div>
+            </section>
+
+            <section class="info-card">
+                <h2>リフト運行情報</h2>
+                <ul id="lift-status">
+                    <li><span class="status-dot"></span>横手山第1スカイペア</li>
+                    <li><span class="status-dot"></span>横手山第2スカイペア</li>
+                    <li><span class="status-dot"></span>横手山第3スカイペア</li>
+                    <li><span class="status-dot"></span>横手山第4ペア</li>
+                    <li><span class="status-dot"></span>渋峠第1ペア</li>
+                    <li><span class="status-dot"></span>渋峠第2ペア</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>プログラミング：hoshizora2307</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
