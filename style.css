@@ -1,0 +1,143 @@
+body {
+    font-family: 'Noto Serif JP', serif;
+    background-color: #0d1a2a;
+    color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(240, 248, 255, 0.2);
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+#sub-title {
+    font-size: 0.9em;
+    color: #a3b9d0;
+    margin: 0;
+}
+
+#update-time {
+    font-size: 0.8em;
+    color: #778899;
+}
+
+.info-card {
+    background-color: #1a2b40;
+    border: 1px solid rgba(240, 248, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.info-card h2 {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5em;
+    color: #66fcf1;
+    border-bottom: 2px solid #45a29e;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.snow-depth-display {
+    padding: 10px 0;
+}
+
+.data-value {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3em;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+.data-label {
+    font-size: 0.9em;
+    color: #a3b9d0;
+}
+
+.weather-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#weather-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.weather-description {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.temp-label {
+    font-size: 0.9em;
+    color: #a3b9d0;
+    margin: 5px 0;
+}
+
+.live-cam-placeholder {
+    background-color: #0b1520;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: #778899;
+    font-size: 0.9em;
+}
+
+#lift-status {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+#lift-status li {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(240, 248, 255, 0.05);
+}
+
+#lift-status li:last-child {
+    border-bottom: none;
+}
+
+.status-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #45a29e; /* デフォルトは運行中 */
+    margin-right: 10px;
+}
+
+footer {
+    padding: 20px 0;
+    font-size: 0.7em;
+    color: #5a5e6a;
+}
